@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>HDU ID QR Generator</title>
     <style>
         html {
             background-color: #fefefe;
@@ -17,11 +17,13 @@
             max-width: 90%;
             min-width: 240px;
 
-            font-size: 24px;
+            font-size: 120%;
         }
 
         .title {
             text-align: center;
+            margin-top: 0.5em;
+            margin-top: 1em;
         }
 
         .field {
@@ -54,7 +56,8 @@
         }
 
         #qrcode img {
-            width: 50%;
+            width: 80%;
+            max-width: 600px;
             margin: 0px auto;
         }
 
@@ -65,10 +68,9 @@
   </head>
   <body>
     <div class="container">
-        <h1 class="title">QR-code generator</h1>
-        <h2 class="title">Dynamic System Simulation (HDU-ITMO)</h2>
+        <h1 class="title">In-class QR</h2>
 
-        <p>
+        <p class="title">
             Please fill the form with you HDU ID and show qr-code for teacher, when he ask it
         </p>
         <form>
